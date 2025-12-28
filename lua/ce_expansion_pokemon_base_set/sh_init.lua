@@ -14,6 +14,7 @@ hook.Add(
 			UniqueID = EXPANSION_SET_ID,
 			Name = "expansion_set_pokemon_base",
 			Image = "card_engine/expansions/pokemon_base_set/set_logo",
+			RemoteDownloadURL = "https://card-engine-r2.luttonline.nl/",
 
 			-- Define which attributes should appear as filters in the collection menu
 			FilterableAttributes = {

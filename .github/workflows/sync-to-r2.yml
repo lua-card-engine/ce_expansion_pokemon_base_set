@@ -1,11 +1,11 @@
 name: Sync Textures to Cloudflare R2
 
 on:
-  # push:
-  #   branches:
-  #     - main
-  #   paths:
-  #     - "materials/**"
+  push:
+    branches:
+      - main
+    paths:
+      - "materials/**"
   workflow_dispatch: # Allow manual trigger
 
 jobs:

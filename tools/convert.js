@@ -15,7 +15,7 @@ for (const pngFile of pngFiles) {
   const inputPath = join(designDir, pngFile);
 
   // Copy the booster material as is (we use the PNG directly in-game)
-  if (pngFile.startsWith('base_booster')) {
+  if (pngFile.startsWith('pokemon_base_set_booster')) {
     console.log(`Copying booster material as is: ${pngFile}`);
     const outputPath = join(outputDir, pngFile);
     await copyFile(inputPath, outputPath);

@@ -14,7 +14,7 @@
     "license": "MIT",
     "dependencies": {
         "@tcgdex/sdk": "^2.7.1",
-        "png-to-vtf": "^0.2.0",
+        "png-to-vtf": "^0.3.0",
         "sharp": "^0.34.5"
     }
 }

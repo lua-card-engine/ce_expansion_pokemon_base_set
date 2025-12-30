@@ -28,7 +28,7 @@ async function processImage(inputPath, outputPath) {
         width: 512,
         height: 512,
         channels: 4,
-        background: { r: 0, g: 0, b: 0, alpha: 255 } // Black background to match border
+        background: { r: 0, g: 0, b: 0, alpha: 0 } // Transparent background
       }
     })
       .composite([{

@@ -12,7 +12,7 @@ hook.Add(
 		-- Register the expansion set with its metadata and filterable attributes
 		CardEngine.ExpansionSet.Register({
 			UniqueID = EXPANSION_SET_ID,
-			Name = "expansion_set_pokemon_base",
+			Name = "expansion_set_ce_expansion_pokemon_base_set",
 			Image = "card_engine/expansions/ce_expansion_pokemon_base_set/set_logo",
 			RemoteDownloadURL = "https://card-engine-r2.luttonline.nl/",
 

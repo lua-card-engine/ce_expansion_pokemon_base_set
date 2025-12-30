@@ -246,7 +246,7 @@ CARD.Name = "${cardId}"
 CARD.Description = "${cardId}_description"
 CARD.Texture = "${texturePath}"
 CARD.RearTexture = "${backTexturePath}"
-CARD.CardSize = CardEngine.DEFAULT_CARD_MODELS.COMMON
+CARD.CardSize = CardEngine.DEFAULT_CARD_MODELS.COMMON_ROUNDED
 CARD.Attributes = ${convertToLuaValue(attributes)}
 `;
 

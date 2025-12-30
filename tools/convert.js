@@ -3,8 +3,8 @@ import { readdir, copyFile } from 'fs/promises';
 import { join, basename, extname } from 'path';
 
 
-const designDir = '../design';
-const outputDir = '../materials/card_engine/expansions/pokemon_base_set';
+const designDir = '../design/processed';
+const outputDir = '../materials/card_engine/expansions/ce_expansion_pokemon_base_set';
 
 const files = await readdir(designDir);
 const pngFiles = files.filter(file => extname(file).toLowerCase() === '.png');

@@ -5,12 +5,16 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
+        "download": "node download.js base1",
         "convert": "node convert.js",
+        "process": "node process.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "luttje",
     "license": "MIT",
     "dependencies": {
-        "png-to-vtf": "^0.2.0"
+        "@tcgdex/sdk": "^2.7.1",
+        "png-to-vtf": "^0.2.0",
+        "sharp": "^0.34.5"
     }
 }

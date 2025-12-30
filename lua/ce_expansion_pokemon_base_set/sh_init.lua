@@ -2,11 +2,6 @@ hook.Add(
 	"CardEngineInitializeExpansionPacks",
 	"CardEngine.PokemonBaseSet.InitializeExpansionPack",
 	function()
-		if (not CardEngine) then
-			ErrorNoHalt("Card Engine not found! Expansion pack 'ce_expansion_pokemon_base_set' will not load.\n")
-			return
-		end
-
 		local EXPANSION_SET_ID = "pokemon_base_set"
 
 		-- Register the expansion set with its metadata and filterable attributes

@@ -2,7 +2,7 @@ local BOOSTER = BOOSTER
 
 BOOSTER.Name = "pokemon_base_booster"
 BOOSTER.Description = "pokemon_base_booster_description"
-BOOSTER.Material = "card_engine/expansions/pokemon_base_set/pokemon_base_set_booster.png"
+BOOSTER.Material = "card_engine/expansions/ce_expansion_pokemon_base_set/pokemon_base_set_booster.png"
 BOOSTER.MaterialWidth = 261
 BOOSTER.MaterialHeight = 446
 BOOSTER.SealHeight = 30

@@ -28,7 +28,7 @@ To use this expansion set in your Garry's Mod server, follow these steps:
             ├── materials/
             │   └── card_engine/
             │       └── expansions/
-            │           └── pokemon_base_set/
+            │           └── ce_expansion_pokemon_base_set/
             ├── tools/
             │   └── ...
             └── ...
@@ -60,7 +60,7 @@ To enable the automatic synchronization to Cloudflare R2, you need to set up the
 
 Additionally, add this variable to the repository, to specify the expansion subfolder in the R2 bucket:
 
-- `EXPANSION_FOLDER`: Set this to `pokemon_base_set` for this expansion set.
+- `EXPANSION_FOLDER`: Set this to `ce_expansion_pokemon_base_set` for this expansion set.
 
 ## 🛠️ Tools
 
@@ -84,7 +84,7 @@ To convert your `.png` card designs to `.vtf`, follow these steps:
     npm install
     ```
 
-4. To convert all `.png` files in the `design/` folder to `.vtf` format in the `materials/card_engine/expansions/pokemon_base_set` folder, run the following command:
+4. To convert all `.png` files in the `design/` folder to `.vtf` format in the `materials/card_engine/expansions/ce_expansion_pokemon_base_set` folder, run the following command:
 
     ```bash
     npm run convert

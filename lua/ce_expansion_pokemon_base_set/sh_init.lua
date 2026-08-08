@@ -38,9 +38,13 @@ hook.Add(
 			},
 		})
 
-		CardEngine.Collection.IncludeDirectory(
-			CardEngine.PathCombine("ce_expansion_pokemon_base_set", "cards/"),
-			nil,
+		-- cards/sh_all_cards.lua is a generated file (see tools/concat_cards.js) that
+		-- concatenates all individual card files into a single file, to reduce the
+		-- amount of Lua files the addon has to ship/include
+		local ALL_CARDS = include(CardEngine.PathCombine("ce_expansion_pokemon_base_set", "cards/sh_all_cards.lua"))
+
+		CardEngine.Collection.IncludeRegistrations(
+			ALL_CARDS,
 			-- Automatically inject the ExpansionSet property into all cards loaded from this expansion pack
 			function(fileName, cardFilePath)
 				CARD.ExpansionSet = EXPANSION_SET_ID

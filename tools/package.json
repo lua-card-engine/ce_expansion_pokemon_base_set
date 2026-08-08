@@ -8,6 +8,7 @@
         "download": "node download.js base1",
         "convert": "node convert.js",
         "process": "node process.js",
+        "concat-cards": "node concat_cards.js ../lua/ce_expansion_pokemon_base_set/cards",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "luttje",

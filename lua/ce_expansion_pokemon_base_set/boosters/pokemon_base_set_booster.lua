@@ -126,7 +126,7 @@ BOOSTER.SlotConfiguration = {
 	{
 		attributeWeights = {
 			Rarity = {
-				common = 1,
+				Common = 1,
 			},
 		},
 	},
@@ -135,28 +135,28 @@ BOOSTER.SlotConfiguration = {
 	{
 		attributeWeights = {
 			Rarity = {
-				common = 1,
+				Common = 1,
 			},
 		},
 	},
 	{
 		attributeWeights = {
 			Rarity = {
-				common = 1,
+				Common = 1,
 			},
 		},
 	},
 	{
 		attributeWeights = {
 			Rarity = {
-				common = 1,
+				Common = 1,
 			},
 		},
 	},
 	{
 		attributeWeights = {
 			Rarity = {
-				common = 1,
+				Common = 1,
 			},
 		},
 	},
@@ -165,21 +165,21 @@ BOOSTER.SlotConfiguration = {
 	{
 		attributeWeights = {
 			Rarity = {
-				uncommon = 1,
+				Uncommon = 1,
 			},
 		},
 	},
 	{
 		attributeWeights = {
 			Rarity = {
-				uncommon = 1,
+				Uncommon = 1,
 			},
 		},
 	},
 	{
 		attributeWeights = {
 			Rarity = {
-				uncommon = 1,
+				Uncommon = 1,
 			},
 		},
 	},
@@ -188,7 +188,7 @@ BOOSTER.SlotConfiguration = {
 	{
 		attributeWeights = {
 			Rarity = {
-				rare = 1,
+				Rare = 1,
 			},
 		},
 		requiredAttributes = {
@@ -199,21 +199,21 @@ BOOSTER.SlotConfiguration = {
 	-- Slots 10-11: Basic Energy
 	{
 		requiredAttributes = {
-			IsEnergy = true,
+			EnergyType = "Normal",
 		},
 		attributeWeights = {
 			Rarity = {
-				common = 1,
+				Common = 1,
 			},
 		},
 	},
 	{
 		requiredAttributes = {
-			IsEnergy = true,
+			EnergyType = "Normal",
 		},
 		attributeWeights = {
 			Rarity = {
-				common = 1,
+				Common = 1,
 			},
 		},
 	},

@@ -174,7 +174,7 @@ hook.Add(
 				-- Define the slot configuration for the booster pack
 				-- Each slot can have:
 				--   - attributeWeights: Roll for specific attribute values (e.g., Rarity, Type)
-				--   - requiredAttributes: Filter cards that MUST have certain attributes (e.g., IsTrainer = true)
+				--   - requiredAttributes: Filter cards that MUST have certain attributes (e.g., Category = "Trainer")
 				--   - modifiers: Apply modifiers to the card (e.g., condition, foil)
 				--
 				-- Legacy support: You can still use rarityWeights instead of attributeWeights.Rarity

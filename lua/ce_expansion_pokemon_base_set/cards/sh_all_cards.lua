@@ -2,6 +2,7 @@ local ALL_CARDS = {}
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_abra.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_abra.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_abra"
@@ -120,6 +121,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_alakazam.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_alakazam.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_alakazam"
@@ -260,6 +262,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_arcanine.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_arcanine.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_arcanine"
@@ -392,6 +395,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_beedrill.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_beedrill.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_beedrill"
@@ -532,6 +536,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_bill.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_bill.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_bill"
@@ -626,6 +631,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_blastoise.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_blastoise.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_blastoise"
@@ -760,6 +766,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_bulbasaur.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_bulbasaur.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_bulbasaur"
@@ -879,6 +886,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_caterpie.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_caterpie.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_caterpie"
@@ -997,6 +1005,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_chansey.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_chansey.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_chansey"
@@ -1136,6 +1145,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_charizard.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_charizard.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_charizard"
@@ -1276,6 +1286,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_charmander.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_charmander.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_charmander"
@@ -1402,6 +1413,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_charmeleon.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_charmeleon.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_charmeleon"
@@ -1532,6 +1544,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_clefairy_doll.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_clefairy_doll.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_clefairy_doll"
@@ -1630,6 +1643,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_clefairy.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_clefairy.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_clefairy"
@@ -1766,6 +1780,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_computer_search.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_computer_search.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_computer_search"
@@ -1863,6 +1878,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_defender.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_defender.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_defender"
@@ -1957,6 +1973,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_devolution_spray.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_devolution_spray.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_devolution_spray"
@@ -2054,6 +2071,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_dewgong.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_dewgong.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_dewgong"
@@ -2185,6 +2203,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_diglett.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_diglett.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_diglett"
@@ -2316,6 +2335,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_doduo.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_doduo.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_doduo"
@@ -2440,6 +2460,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_double_colorless_energy.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_double_colorless_energy.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_double_colorless_energy"
@@ -2535,6 +2556,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_dragonair.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_dragonair.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_dragonair"
@@ -2670,6 +2692,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_dratini.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_dratini.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_dratini"
@@ -2787,6 +2810,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_drowzee.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_drowzee.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_drowzee"
@@ -2913,6 +2937,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_dugtrio.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_dugtrio.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_dugtrio"
@@ -3054,6 +3079,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_electabuzz.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_electabuzz.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_electabuzz"
@@ -3185,6 +3211,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_electrode.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_electrode.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_electrode"
@@ -3317,6 +3344,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_energy_removal.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_energy_removal.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_energy_removal"
@@ -3411,6 +3439,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_energy_retrieval.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_energy_retrieval.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_energy_retrieval"
@@ -3505,6 +3534,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_farfetch_d.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_farfetch_d.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_farfetch_d"
@@ -3639,6 +3669,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_fighting_energy.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_fighting_energy.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_fighting_energy"
@@ -3735,6 +3766,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_fire_energy.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_fire_energy.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_fire_energy"
@@ -3831,6 +3863,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_full_heal.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_full_heal.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_full_heal"
@@ -3925,6 +3958,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_gastly.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_gastly.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_gastly"
@@ -4051,6 +4085,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_grass_energy.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_grass_energy.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_grass_energy"
@@ -4147,6 +4182,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_growlithe.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_growlithe.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_growlithe"
@@ -4265,6 +4301,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_gust_of_wind.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_gust_of_wind.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_gust_of_wind"
@@ -4359,6 +4396,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_gyarados.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_gyarados.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_gyarados"
@@ -4499,6 +4537,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_haunter.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_haunter.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_haunter"
@@ -4626,6 +4665,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_hitmonchan.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_hitmonchan.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_hitmonchan"
@@ -4755,6 +4795,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_impostor_professor_oak.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_impostor_professor_oak.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_impostor_professor_oak"
@@ -4827,6 +4868,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_item_finder.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_item_finder.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_item_finder"
@@ -4924,6 +4966,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_ivysaur.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_ivysaur.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_ivysaur"
@@ -5054,6 +5097,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_jynx.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_jynx.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_jynx"
@@ -5182,6 +5226,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_kadabra.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_kadabra.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_kadabra"
@@ -5311,6 +5356,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_kakuna.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_kakuna.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_kakuna"
@@ -5440,6 +5486,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_koffing.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_koffing.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_koffing"
@@ -5559,6 +5606,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_lass.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_lass.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_lass"
@@ -5656,6 +5704,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_lightning_energy.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_lightning_energy.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_lightning_energy"
@@ -5752,6 +5801,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_machamp.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_machamp.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_machamp"
@@ -5874,6 +5924,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_machoke.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_machoke.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_machoke"
@@ -6006,6 +6057,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_machop.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_machop.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_machop"
@@ -6123,6 +6175,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_magikarp.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_magikarp.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_magikarp"
@@ -6248,6 +6301,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_magmar.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_magmar.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_magmar"
@@ -6376,6 +6430,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_magnemite.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_magnemite.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_magnemite"
@@ -6504,6 +6559,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_magneton.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_magneton.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_magneton"
@@ -6640,6 +6696,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_maintenance.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_maintenance.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_maintenance"
@@ -6734,6 +6791,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_metapod.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_metapod.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_metapod"
@@ -6863,6 +6921,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_mewtwo.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_mewtwo.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_mewtwo"
@@ -6994,6 +7053,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_nidoking.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_nidoking.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_nidoking"
@@ -7130,6 +7190,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_nidoran.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_nidoran.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_nidoran"
@@ -7223,6 +7284,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_nidorino.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_nidorino.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_nidorino"
@@ -7354,6 +7416,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_ninetales.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_ninetales.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_ninetales"
@@ -7487,6 +7550,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_onix.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_onix.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_onix"
@@ -7613,6 +7677,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_pidgeotto.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_pidgeotto.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_pidgeotto"
@@ -7753,6 +7818,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_pidgey.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_pidgey.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_pidgey"
@@ -7879,6 +7945,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_pikachu.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_pikachu.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_pikachu"
@@ -8005,6 +8072,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_pluspower.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_pluspower.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_pluspower"
@@ -8099,6 +8167,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_pok_dex.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_pok_dex.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_pok_dex"
@@ -8183,6 +8252,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_pok_mon_breeder.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_pok_mon_breeder.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_pok_mon_breeder"
@@ -8270,6 +8340,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_pok_mon_center.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_pok_mon_center.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_pok_mon_center"
@@ -8354,6 +8425,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_pok_mon_flute.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_pok_mon_flute.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_pok_mon_flute"
@@ -8438,6 +8510,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_pok_mon_trader.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_pok_mon_trader.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_pok_mon_trader"
@@ -8525,6 +8598,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_poliwag.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_poliwag.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_poliwag"
@@ -8644,6 +8718,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_poliwhirl.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_poliwhirl.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_poliwhirl"
@@ -8773,6 +8848,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_poliwrath.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_poliwrath.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_poliwrath"
@@ -8909,6 +8985,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_ponyta.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_ponyta.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_ponyta"
@@ -9035,6 +9112,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_porygon.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_porygon.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_porygon"
@@ -9167,6 +9245,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_potion.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_potion.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_potion"
@@ -9261,6 +9340,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_professor_oak.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_professor_oak.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_professor_oak"
@@ -9355,6 +9435,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_psychic_energy.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_psychic_energy.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_psychic_energy"
@@ -9451,6 +9532,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_raichu.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_raichu.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_raichu"
@@ -9587,6 +9669,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_raticate.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_raticate.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_raticate"
@@ -9722,6 +9805,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_rattata.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_rattata.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_rattata"
@@ -9845,6 +9929,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_revive.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_revive.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_revive"
@@ -9939,6 +10024,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_sandshrew.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_sandshrew.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_sandshrew"
@@ -10064,6 +10150,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_scoop_up.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_scoop_up.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_scoop_up"
@@ -10161,6 +10248,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_seel.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_seel.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_seel"
@@ -10278,6 +10366,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_squirtle.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_squirtle.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_squirtle"
@@ -10405,6 +10494,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_starmie.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_starmie.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_starmie"
@@ -10534,6 +10624,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_staryu.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_staryu.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_staryu"
@@ -10651,6 +10742,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_super_energy_removal.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_super_energy_removal.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_super_energy_removal"
@@ -10748,6 +10840,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_super_potion.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_super_potion.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_super_potion"
@@ -10842,6 +10935,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_switch.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_switch.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_switch"
@@ -10936,6 +11030,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_tangela.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_tangela.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_tangela"
@@ -11065,6 +11160,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_venusaur.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_venusaur.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_venusaur"
@@ -11197,6 +11293,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_voltorb.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_voltorb.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_voltorb"
@@ -11314,6 +11411,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_vulpix.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_vulpix.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_vulpix"
@@ -11433,6 +11531,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_wartortle.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_wartortle.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_wartortle"
@@ -11562,6 +11661,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_water_energy.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_water_energy.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_water_energy"
@@ -11658,6 +11758,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_weedle.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_weedle.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_weedle"
@@ -11776,6 +11877,7 @@ end
 
 do
 	local CARD = {}
+	CARD.hooks = setmetatable({}, { __index = CARD })
 	CARD.FileName = "pokemon_base_set_zapdos.lua"
 	CARD.FilePath = "ce_expansion_pokemon_base_set/cards/pokemon_base_set_zapdos.lua"
 	CARD.Name = "ce_expansion_pokemon_base_set_zapdos"

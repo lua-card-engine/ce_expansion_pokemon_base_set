@@ -14,12 +14,11 @@ console.log(`Found ${pngFiles.length} PNG files to convert...`);
 for (const pngFile of pngFiles) {
   const inputPath = join(designDir, pngFile);
 
-  // Copy the booster material as is (we use the PNG directly in-game)
+  // Copy the booster material as is too (we use the PNG directly in-game)
   if (pngFile.startsWith('pokemon_base_set_booster')) {
     console.log(`Copying booster material as is: ${pngFile}`);
     const outputPath = join(outputDir, pngFile);
     await copyFile(inputPath, outputPath);
-    continue;
   }
 
   const outputFile = basename(pngFile, '.png') + '.vtf';

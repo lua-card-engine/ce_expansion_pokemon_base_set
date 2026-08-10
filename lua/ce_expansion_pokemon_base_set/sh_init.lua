@@ -64,6 +64,9 @@ hook.Add(
 				BOOSTER.MaterialHeight = 446
 				BOOSTER.SealHeight = 30
 
+				BOOSTER.RearTexture =
+				"card_engine/expansions/ce_expansion_pokemon_base_set/pokemon_base_set_booster_back"
+
 				-- Define the card pool for this booster pack
 				-- These are the card unique IDs that can appear in this pack
 				BOOSTER.CardPool = {

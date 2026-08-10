@@ -2,6 +2,8 @@
 
 This repository contains the Pokémon Base Expansion Set for the yet to be released CardEngine, a comprehensive collectible card framework for Garry's Mod. This expansion set introduces a variety of cards for players to collect and trade.
 
+<img src="booster-packs.jpg" alt="Screenshot showing a close-up of the Pokémon Base Booster Packs in-game on a concrete floor" width="600">
+
 ## 🚀 Usage
 
 To use this expansion set in your Garry's Mod server, follow these steps:

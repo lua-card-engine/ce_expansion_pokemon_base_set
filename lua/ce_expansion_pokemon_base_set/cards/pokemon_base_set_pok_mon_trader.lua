@@ -76,6 +76,3 @@ CARD.Attributes = {
 		Tcgplayer = nil
 	}
 }
-
-CARD.HolographicStrength = Vector(1, 1, 1)
-CARD.HolographicTexture = "card_engine/holo_rainbow_strong"

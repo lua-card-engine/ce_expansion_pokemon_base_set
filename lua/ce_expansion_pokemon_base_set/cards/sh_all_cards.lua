@@ -528,9 +528,6 @@ do
 			}
 		}
 	}
-
-	CARD.HolographicStrength = Vector(1, 1, 1)
-	CARD.HolographicTexture = "card_engine/holo_rainbow_strong"
 	table.insert(ALL_CARDS, CARD)
 end
 
@@ -1635,9 +1632,6 @@ do
 			}
 		}
 	}
-
-	CARD.HolographicStrength = Vector(1, 1, 1)
-	CARD.HolographicTexture = "card_engine/holo_rainbow_strong"
 	table.insert(ALL_CARDS, CARD)
 end
 
@@ -1870,9 +1864,6 @@ do
 			}
 		}
 	}
-
-	CARD.HolographicStrength = Vector(1, 1, 1)
-	CARD.HolographicTexture = "card_engine/holo_rainbow_strong"
 	table.insert(ALL_CARDS, CARD)
 end
 
@@ -2063,9 +2054,6 @@ do
 			}
 		}
 	}
-
-	CARD.HolographicStrength = Vector(1, 1, 1)
-	CARD.HolographicTexture = "card_engine/holo_rainbow_strong"
 	table.insert(ALL_CARDS, CARD)
 end
 
@@ -2684,9 +2672,6 @@ do
 			}
 		}
 	}
-
-	CARD.HolographicStrength = Vector(1, 1, 1)
-	CARD.HolographicTexture = "card_engine/holo_rainbow_strong"
 	table.insert(ALL_CARDS, CARD)
 end
 
@@ -3071,9 +3056,6 @@ do
 			}
 		}
 	}
-
-	CARD.HolographicStrength = Vector(1, 1, 1)
-	CARD.HolographicTexture = "card_engine/holo_rainbow_strong"
 	table.insert(ALL_CARDS, CARD)
 end
 
@@ -3203,9 +3185,6 @@ do
 			}
 		}
 	}
-
-	CARD.HolographicStrength = Vector(1, 1, 1)
-	CARD.HolographicTexture = "card_engine/holo_rainbow_strong"
 	table.insert(ALL_CARDS, CARD)
 end
 
@@ -3336,9 +3315,6 @@ do
 			}
 		}
 	}
-
-	CARD.HolographicStrength = Vector(1, 1, 1)
-	CARD.HolographicTexture = "card_engine/holo_rainbow_strong"
 	table.insert(ALL_CARDS, CARD)
 end
 
@@ -4860,9 +4836,6 @@ do
 			Tcgplayer = nil
 		}
 	}
-
-	CARD.HolographicStrength = Vector(1, 1, 1)
-	CARD.HolographicTexture = "card_engine/holo_rainbow_strong"
 	table.insert(ALL_CARDS, CARD)
 end
 
@@ -4958,9 +4931,6 @@ do
 			}
 		}
 	}
-
-	CARD.HolographicStrength = Vector(1, 1, 1)
-	CARD.HolographicTexture = "card_engine/holo_rainbow_strong"
 	table.insert(ALL_CARDS, CARD)
 end
 
@@ -5696,9 +5666,6 @@ do
 			}
 		}
 	}
-
-	CARD.HolographicStrength = Vector(1, 1, 1)
-	CARD.HolographicTexture = "card_engine/holo_rainbow_strong"
 	table.insert(ALL_CARDS, CARD)
 end
 
@@ -7811,9 +7778,6 @@ do
 			}
 		}
 	}
-
-	CARD.HolographicStrength = Vector(1, 1, 1)
-	CARD.HolographicTexture = "card_engine/holo_rainbow_strong"
 	table.insert(ALL_CARDS, CARD)
 end
 
@@ -8333,9 +8297,6 @@ do
 			Tcgplayer = nil
 		}
 	}
-
-	CARD.HolographicStrength = Vector(1, 1, 1)
-	CARD.HolographicTexture = "card_engine/holo_rainbow_strong"
 	table.insert(ALL_CARDS, CARD)
 end
 
@@ -8591,9 +8552,6 @@ do
 			Tcgplayer = nil
 		}
 	}
-
-	CARD.HolographicStrength = Vector(1, 1, 1)
-	CARD.HolographicTexture = "card_engine/holo_rainbow_strong"
 	table.insert(ALL_CARDS, CARD)
 end
 
@@ -10241,9 +10199,6 @@ do
 			}
 		}
 	}
-
-	CARD.HolographicStrength = Vector(1, 1, 1)
-	CARD.HolographicTexture = "card_engine/holo_rainbow_strong"
 	table.insert(ALL_CARDS, CARD)
 end
 
@@ -10834,9 +10789,6 @@ do
 			}
 		}
 	}
-
-	CARD.HolographicStrength = Vector(1, 1, 1)
-	CARD.HolographicTexture = "card_engine/holo_rainbow_strong"
 	table.insert(ALL_CARDS, CARD)
 end
 

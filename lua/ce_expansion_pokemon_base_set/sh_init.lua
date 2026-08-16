@@ -1,6 +1,6 @@
 hook.Add(
-	"CardEngineInitializeExpansionPacks",
-	"CardEngine.PokemonBaseSet.InitializeExpansionPack",
+	"CardEngineInitializeExpansionSets",
+	"CardEngine.PokemonBaseSet.InitializeExpansionSet",
 	function()
 		local EXPANSION_SET_ID = "pokemon_base_set"
 
@@ -46,7 +46,7 @@ hook.Add(
 
 		CardEngine.Collection.IncludeRegistrations(
 			ALL_CARDS,
-			-- Automatically inject the ExpansionSet property into all cards loaded from this expansion pack
+			-- Automatically inject the ExpansionSet property into all cards loaded from this expansion set
 			function(fileName, cardFilePath)
 				CARD.ExpansionSet = EXPANSION_SET_ID
 			end

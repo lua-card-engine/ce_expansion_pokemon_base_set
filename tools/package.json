@@ -1,7 +1,7 @@
 {
     "name": "ce_expansion_pokemon_base_set_tools",
     "version": "0.1.0",
-    "description": "Tools for ce_expansion_pokemon_base_set expansion pack",
+    "description": "Tools for ce_expansion_pokemon_base_set expansion set",
     "main": "index.js",
     "type": "module",
     "scripts": {

@@ -1,0 +1,85 @@
+# 🧩 Advanced Usage
+
+We already serve the card materials for this expansion set through Cloudflare R2, so you don't have to worry about hosting them yourself. However, if you want to self-host the card materials, you can follow the instructions below.
+
+## 📦 Distribution
+
+The files in this expansion set are distributed through Cloudflare R2. See [the `sync-to-r2` GitHub Action configuration](.github/workflows/sync-to-r2.yml) to understand how the distribution works.
+
+**In short:** Whenever the contents of the `materials/` folder are changed and pushed to the `main` branch, those changes are automatically uploaded to Cloudflare R2 for distribution. In [the `sh_init.lua` configuration file of this expansion set](lua/ce_expansion_pokemon_base_set/sh_init.lua), the R2 URL is setup as the remote location where CardEngine should look for the card materials:
+
+```lua
+CardEngine.ExpansionSet.Register({
+    RemoteDownloadURL = "https://<the URL to CloudFlare R2>/",
+    --- ... (other configuration options)
+})
+```
+
+If a new player connects and does not have the card materials yet, CardEngine will download them from that R2 URL.
+
+### Required Setup in GitHub
+
+To enable the automatic synchronization to Cloudflare R2, you need to set up the following GitHub Secrets in your repository settings:
+
+- `R2_ACCOUNT_ID`: You can find this in your Cloudflare R2 dashboard under "R2 object storage" > "Overview" > "Account Details".
+- `R2_ACCESS_KEY_ID`: This can be created in your Cloudflare R2 dashboard under "Manage Account" > "Account API Tokens". It can only be seen once when created, so it's probably best to store this as an organization secret if you have multiple repositories using the same R2 bucket. Make sure the token gets both "Read" and "Write" permissions for R2.
+- `R2_SECRET_ACCESS_KEY`: See the instructions for `R2_ACCESS_KEY_ID`.
+- `R2_BUCKET_NAME`: The name of the R2 bucket where the card materials will be stored.
+
+Additionally, add this variable to the repository, to specify the expansion subfolder in the R2 bucket:
+
+- `EXPANSION_FOLDER`: Set this to `ce_expansion_pokemon_base_set` for this expansion set.
+
+## 🛠️ Tools
+
+This expansion set comes with a handy tool to convert `.png` card designs into the required `.vtf` format for use in Garry's Mod. And to download and properly resize card images from the [TCGDex API](https://tcgdex.dev/).
+
+For all these tools you must:
+
+1. Open a terminal or command prompt in the repository root folder.
+
+2. Navigate to the [`tools/`](tools/) directory of this repository:
+
+    ```bash
+    cd tools/
+    ```
+
+3. Install the required node modules:
+
+    ```bash
+    npm install
+    ```
+
+### `https://tcgdex.dev/` Downloader
+
+To download a set of card images from the [TCGDex API](https://tcgdex.dev/), you can use the provided `download.js` script located in the [`tools/`](tools/) directory.
+
+1. Run the downloader script with Node.js, specifying the set code you want, e.g: `base1` for the First Edition Base Set:
+
+    ```bash
+    node download.js base1
+    ```
+
+2. The script will download the card images and save them as `.png` files in the `design/unprocessed` folder.
+
+### Process Images
+
+To process and resize the downloaded card images to fit the required dimensions for CardEngine, follow these steps:
+
+1. Run the image processing script with Node.js:
+
+    ```bash
+    npm run process
+    ```
+
+2. The script will resize the images and save them in the `design/processed/` folder, ready for conversion to `.vtf`.
+
+### PNG to VTF Converter
+
+To convert your `.png` card designs to `.vtf`, follow these steps:
+
+1. To convert all `.png` files in the `design/processed/` folder to `.vtf` format in the `materials/card_engine/expansions/ce_expansion_pokemon_base_set` folder, run the following command:
+
+    ```bash
+    npm run convert
+    ```

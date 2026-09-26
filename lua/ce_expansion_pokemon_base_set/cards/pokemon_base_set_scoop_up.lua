@@ -51,6 +51,7 @@ CARD.Attributes = {
 			Size = "standard"
 		}
 	},
+	TrainerText = "Choose 1 of your Pokémon in play and return its Basic Pokémon card to your hand. (Discard all cards attached to that card.)",
 	Legal = {
 		Standard = false,
 		Expanded = false

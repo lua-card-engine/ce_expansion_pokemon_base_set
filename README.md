@@ -64,6 +64,21 @@ Additionally, add this variable to the repository, to specify the expansion subf
 
 - `EXPANSION_FOLDER`: Set this to `ce_expansion_pokemon_base_set` for this expansion set.
 
+### Pushing to R2 locally
+
+You can also push the materials to R2 from your own machine, which mirrors what the GitHub Action does (upload new and changed files, delete files that no longer exist locally):
+
+1. Copy [`.env.example`](.env.example) to `.env` in the repository root and fill in the same `R2_*` values as the GitHub secrets above. The `.env` file is gitignored.
+2. From the [`tools/`](tools/) directory (after `npm install`) run:
+
+    ```bash
+    npm run sync-r2              # upload
+    npm run sync-r2 -- --dry-run # only show what would change
+    ```
+
+> [!WARNING]
+> Like the GitHub Action, this is a full sync: files in the bucket that are not in your local `materials/` folder are deleted. Use `--dry-run` first if unsure.
+
 ## 🛠️ Tools
 
 This expansion set comes with a handy tool to convert `.png` card designs into the required `.vtf` format for use in Garry's Mod. And to download and properly resize card images from the [TCGDex API](https://tcgdex.dev/).

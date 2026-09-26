@@ -51,6 +51,7 @@ CARD.Attributes = {
 			Size = "standard"
 		}
 	},
+	TrainerText = "Draw 2 cards.",
 	Legal = {
 		Standard = false,
 		Expanded = false

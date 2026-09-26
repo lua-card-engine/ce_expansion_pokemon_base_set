@@ -58,7 +58,7 @@ CARD.Attributes = {
 	Types = {
 		"Colorless"
 	},
-	EvolveFrom = "Poochyena",
+	EvolveFrom = "Rattata",
 	Stage = "Stage1",
 	Attacks = {
 		{
@@ -92,6 +92,8 @@ CARD.Attributes = {
 			Value = "-30"
 		}
 	},
+	RetreatCost = 1,
+	EvolvesFromCard = "pokemon_base_set_rattata",
 	Legal = {
 		Standard = false,
 		Expanded = false

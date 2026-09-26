@@ -51,6 +51,7 @@ CARD.Attributes = {
 			Size = "standard"
 		}
 	},
+	TrainerText = "Remove up to 2 damage counters from 1 of your Pokémon.",
 	Legal = {
 		Standard = false,
 		Expanded = false

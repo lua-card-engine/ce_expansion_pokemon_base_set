@@ -51,6 +51,7 @@ CARD.Attributes = {
 			Size = "standard"
 		}
 	},
+	TrainerText = "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards.",
 	Legal = {
 		Standard = false,
 		Expanded = false

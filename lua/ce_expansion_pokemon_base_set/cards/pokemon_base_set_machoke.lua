@@ -89,6 +89,8 @@ CARD.Attributes = {
 			Value = "×2"
 		}
 	},
+	RetreatCost = 3,
+	EvolvesFromCard = "pokemon_base_set_machop",
 	Legal = {
 		Standard = false,
 		Expanded = false

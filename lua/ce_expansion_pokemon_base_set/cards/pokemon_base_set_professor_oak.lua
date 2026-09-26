@@ -51,6 +51,7 @@ CARD.Attributes = {
 			Size = "standard"
 		}
 	},
+	TrainerText = "Discard your hand, then draw 7 cards.",
 	Legal = {
 		Standard = false,
 		Expanded = false

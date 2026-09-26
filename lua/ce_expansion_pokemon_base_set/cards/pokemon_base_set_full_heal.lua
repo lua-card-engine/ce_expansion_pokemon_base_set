@@ -51,6 +51,7 @@ CARD.Attributes = {
 			Size = "standard"
 		}
 	},
+	TrainerText = "Your Active Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned.",
 	Legal = {
 		Standard = false,
 		Expanded = false

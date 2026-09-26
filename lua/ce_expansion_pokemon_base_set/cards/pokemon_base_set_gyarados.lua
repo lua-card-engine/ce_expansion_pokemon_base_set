@@ -94,6 +94,8 @@ CARD.Attributes = {
 			Value = "-30"
 		}
 	},
+	RetreatCost = 3,
+	EvolvesFromCard = "pokemon_base_set_magikarp",
 	Legal = {
 		Standard = false,
 		Expanded = false

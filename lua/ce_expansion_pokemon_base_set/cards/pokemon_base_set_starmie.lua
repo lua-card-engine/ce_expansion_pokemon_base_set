@@ -87,6 +87,8 @@ CARD.Attributes = {
 			Value = "×2"
 		}
 	},
+	RetreatCost = 1,
+	EvolvesFromCard = "pokemon_base_set_staryu",
 	Legal = {
 		Standard = false,
 		Expanded = false

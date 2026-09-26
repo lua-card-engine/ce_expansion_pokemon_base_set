@@ -81,6 +81,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 0,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -212,6 +213,8 @@ do
 			}
 		},
 		Retreat = 3,
+		RetreatCost = 3,
+		EvolvesFromCard = "pokemon_base_set_kadabra",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -355,6 +358,8 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 3,
+		EvolvesFromCard = "pokemon_base_set_growlithe",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -493,6 +498,8 @@ do
 				Value = "-30"
 			}
 		},
+		RetreatCost = 0,
+		EvolvesFromCard = "pokemon_base_set_kakuna",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -588,6 +595,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Draw 2 cards.",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -720,6 +728,8 @@ do
 			}
 		},
 		Retreat = 3,
+		RetreatCost = 3,
+		EvolvesFromCard = "pokemon_base_set_wartortle",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -843,6 +853,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -962,6 +973,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -1099,6 +1111,7 @@ do
 				Value = "-30"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -1240,6 +1253,8 @@ do
 			}
 		},
 		Retreat = 3,
+		RetreatCost = 3,
+		EvolvesFromCard = "pokemon_base_set_charmeleon",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -1370,6 +1385,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -1501,6 +1517,8 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
+		EvolvesFromCard = "pokemon_base_set_charmander",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -1597,6 +1615,8 @@ do
 			}
 		},
 		Hp = 10,
+		TrainerText = "Play Clefairy Doll as if it were a Basic Pokémon. While in play, Clefairy Doll counts a a Pokémon (instead of a Trainer card). Clefairy Doll has no attacks, can't retreat, and can't be Asleep, Confused, Paralyzed, or Poisoned. If Clefairy Doll is Knocked Out, it doesn't count as a Knocked Out Pokémon. At any time during your turn before your attack, you may discard Clefairy Doll.",
+		PlayableAsBasic = true,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -1731,6 +1751,7 @@ do
 				Value = "-30"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -1829,6 +1850,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Discard 2 of the other cards from your hand in order to search your deck for any card and put it into your hand. Shuffle your deck afterward.",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -1924,6 +1946,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Attach Defender to 1 of your Pokémon. At the end of your opponent's next turn, discard Defender. Damage done to that Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -2019,6 +2042,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Choose 1 of your own Pokémon in play and a Stage of Evolution. Discard all Evolution cards of that Stage or higher attached to that Pokémon. That Pokémon is no longer Asleep, Confused, Paralyzed, Poisoned, or anything else that might be the result of an attack (just as if you had evolved it).",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -2151,6 +2175,8 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 3,
+		EvolvesFromCard = "pokemon_base_set_seel",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -2283,6 +2309,7 @@ do
 				Value = "-30"
 			}
 		},
+		RetreatCost = 0,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -2408,6 +2435,7 @@ do
 				Value = "-30"
 			}
 		},
+		RetreatCost = 0,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -2504,6 +2532,7 @@ do
 			}
 		},
 		EnergyType = "Special",
+		Provides = { "Colorless", "Colorless" },
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -2637,6 +2666,8 @@ do
 				Value = "-30"
 			}
 		},
+		RetreatCost = 2,
+		EvolvesFromCard = "pokemon_base_set_dratini",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -2755,6 +2786,7 @@ do
 				Value = "-30"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -2882,6 +2914,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -3021,6 +3054,8 @@ do
 				Value = "-30"
 			}
 		},
+		RetreatCost = 2,
+		EvolvesFromCard = "pokemon_base_set_diglett",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -3150,6 +3185,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 2,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -3280,6 +3316,8 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
+		EvolvesFromCard = "pokemon_base_set_voltorb",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -3375,6 +3413,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it.",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -3470,6 +3509,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Trade 1 of the other cards in your hand for up to 2 basic Energy cards from your discard pile.",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -3605,6 +3645,7 @@ do
 				Value = "-30"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -3702,6 +3743,7 @@ do
 		},
 		Stage = "Basic",
 		EnergyType = "Normal",
+		Provides = { "Fighting" },
 		Legal = {
 			Standard = true,
 			Expanded = true
@@ -3799,6 +3841,7 @@ do
 		},
 		Stage = "Basic",
 		EnergyType = "Normal",
+		Provides = { "Fire" },
 		Legal = {
 			Standard = true,
 			Expanded = true
@@ -3894,6 +3937,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Your Active Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned.",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -4021,6 +4065,7 @@ do
 				Value = "-30"
 			}
 		},
+		RetreatCost = 0,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -4118,6 +4163,7 @@ do
 		},
 		Stage = "Basic",
 		EnergyType = "Normal",
+		Provides = { "Grass" },
 		Legal = {
 			Standard = true,
 			Expanded = true
@@ -4237,6 +4283,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -4332,6 +4379,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Choose 1 of your opponent's Benched Pokémon and switch it with his or her Active Pokémon.",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -4470,6 +4518,8 @@ do
 				Value = "-30"
 			}
 		},
+		RetreatCost = 3,
+		EvolvesFromCard = "pokemon_base_set_magikarp",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -4601,6 +4651,8 @@ do
 				Value = "-30"
 			}
 		},
+		RetreatCost = 1,
+		EvolvesFromCard = "pokemon_base_set_gastly",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -4728,6 +4780,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 2,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -4826,6 +4879,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards.",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -4896,6 +4950,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Discard 2 of the other cards from your hand in order to put a Trainer card from your discard pile into your hand.",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -4998,7 +5053,7 @@ do
 		Types = {
 			"Grass"
 		},
-		EvolveFrom = "Barboach",
+		EvolveFrom = "Bulbasaur",
 		Stage = "Stage1",
 		Attacks = {
 			{
@@ -5027,6 +5082,8 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
+		EvolvesFromCard = "pokemon_base_set_bulbasaur",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -5156,6 +5213,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 2,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -5286,6 +5344,8 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 3,
+		EvolvesFromCard = "pokemon_base_set_abra",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -5416,6 +5476,8 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 2,
+		EvolvesFromCard = "pokemon_base_set_weedle",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -5536,6 +5598,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -5631,6 +5694,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "You and your opponent show each other your hands, then shuffle all the Trainer cards from your hands into your decks.",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -5728,6 +5792,7 @@ do
 		},
 		Stage = "Basic",
 		EnergyType = "Normal",
+		Provides = { "Lightning" },
 		Legal = {
 			Standard = true,
 			Expanded = true
@@ -5858,6 +5923,8 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 3,
+		EvolvesFromCard = "pokemon_base_set_machoke",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -5984,6 +6051,8 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 3,
+		EvolvesFromCard = "pokemon_base_set_machop",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -6102,6 +6171,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -6228,6 +6298,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -6357,6 +6428,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 2,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -6486,6 +6558,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -6620,6 +6693,8 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
+		EvolvesFromCard = "pokemon_base_set_magnemite",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -6718,6 +6793,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Shuffle 2 of the other cards from your hand into your deck in order to draw a card.",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -6848,6 +6924,8 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 2,
+		EvolvesFromCard = "pokemon_base_set_caterpie",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -6977,6 +7055,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 3,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -7114,6 +7193,8 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 3,
+		EvolvesFromCard = "pokemon_base_set_nidorino",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -7236,6 +7317,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -7343,6 +7425,8 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
+		EvolvesFromCard = "pokemon_base_set_nidoran",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -7475,6 +7559,8 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
+		EvolvesFromCard = "pokemon_base_set_vulpix",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -7605,6 +7691,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 3,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -7743,6 +7830,8 @@ do
 				Value = "-30"
 			}
 		},
+		RetreatCost = 1,
+		EvolvesFromCard = "pokemon_base_set_pidgey",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -7870,6 +7959,7 @@ do
 				Value = "-30"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -7997,6 +8087,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -8092,6 +8183,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Attach PlusPower to your Active Pokémon. At the end of your turn, discard PlusPower. If this Pokémon's attack does damage to the Defending Pokémon (after applying Weakness and Resistance), the attack does 10 more damage to the Defending Pokémon.",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -8187,6 +8279,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Look at up to 5 cards from the top of your deck and rearrange them as you like.",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -8272,6 +8365,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Put a Stage 2 Evolution card from your hand on the matching Basic Pokémon. You can only play this card when you would be allowed to evolve that Pokémon anyway.",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -8357,6 +8451,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Remove all damage counters from all of your own Pokémon with damage counters on them, then discard all Energy cards attached to those Pokémon.",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -8442,6 +8537,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Choose 1 Basic Pokémon card from your opponent's discard pile and put it onto his or her Bench. (You can't play Pokémon Flute if your opponent's Bench is full.)",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -8527,6 +8623,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Trade 1 of the Basic Pokémon or Evolution cards in your hand for 1 of the Basic Pokémon or Evolution cards from your deck. Show both cards to your opponent. Shuffle your deck afterward.",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -8637,6 +8734,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -8767,6 +8865,8 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
+		EvolvesFromCard = "pokemon_base_set_poliwag",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -8901,6 +9001,8 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 3,
+		EvolvesFromCard = "pokemon_base_set_poliwhirl",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -9031,6 +9133,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -9164,6 +9267,7 @@ do
 				Value = "-30"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -9259,6 +9363,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Remove up to 2 damage counters from 1 of your Pokémon.",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -9354,6 +9459,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Discard your hand, then draw 7 cards.",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -9451,6 +9557,7 @@ do
 		},
 		Stage = "Basic",
 		EnergyType = "Normal",
+		Provides = { "Psychic" },
 		Legal = {
 			Standard = true,
 			Expanded = true
@@ -9585,6 +9692,8 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
+		EvolvesFromCard = "pokemon_base_set_pikachu",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -9690,7 +9799,7 @@ do
 		Types = {
 			"Colorless"
 		},
-		EvolveFrom = "Poochyena",
+		EvolveFrom = "Rattata",
 		Stage = "Stage1",
 		Attacks = {
 			{
@@ -9724,6 +9833,8 @@ do
 				Value = "-30"
 			}
 		},
+		RetreatCost = 1,
+		EvolvesFromCard = "pokemon_base_set_rattata",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -9848,6 +9959,7 @@ do
 				Value = "-30"
 			}
 		},
+		RetreatCost = 0,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -9943,6 +10055,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Put 1 Basic Pokémon card from your discard pile onto your Bench. Put damage counters on that Pokémon equal to half its HP (rounded down to the nearest 10). (You can't play Revive if your Bench is full.)",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -10069,6 +10182,7 @@ do
 				Value = "-30"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -10164,6 +10278,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Choose 1 of your Pokémon in play and return its Basic Pokémon card to your hand. (Discard all cards attached to that card.)",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -10282,6 +10397,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -10410,6 +10526,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -10541,6 +10658,8 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
+		EvolvesFromCard = "pokemon_base_set_staryu",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -10659,6 +10778,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -10754,6 +10874,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Discard 1 Energy card attached to 1 of your Pokémon in order to choose 1 of your opponent's Pokémon and up to 2 Energy cards attached to it. Discard those Energy cards.",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -10849,6 +10970,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Discard 1 Energy card attached to your own Pokémon in order to remove up to 4 damage counters from that Pokémon.",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -10944,6 +11066,7 @@ do
 				Size = "standard"
 			}
 		},
+		TrainerText = "Switch 1 of your own Benched Pokémon with your Active Pokémon.",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -11074,6 +11197,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 2,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -11204,6 +11328,8 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 2,
+		EvolvesFromCard = "pokemon_base_set_ivysaur",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -11325,6 +11451,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -11445,6 +11572,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -11575,6 +11703,8 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
+		EvolvesFromCard = "pokemon_base_set_squirtle",
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -11672,6 +11802,7 @@ do
 		},
 		Stage = "Basic",
 		EnergyType = "Normal",
+		Provides = { "Water" },
 		Legal = {
 			Standard = true,
 			Expanded = true
@@ -11791,6 +11922,7 @@ do
 				Value = "×2"
 			}
 		},
+		RetreatCost = 1,
 		Legal = {
 			Standard = false,
 			Expanded = false
@@ -11924,6 +12056,7 @@ do
 				Value = "-30"
 			}
 		},
+		RetreatCost = 3,
 		Legal = {
 			Standard = false,
 			Expanded = false

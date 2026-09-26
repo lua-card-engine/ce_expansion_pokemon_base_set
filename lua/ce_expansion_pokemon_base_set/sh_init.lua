@@ -1,8 +1,39 @@
+CardEngine = CardEngine or {}
+CardEngine.ExpansionSets = CardEngine.ExpansionSets or {}
+CardEngine.ExpansionSets.PokemonBase = CardEngine.ExpansionSets.PokemonBase or {}
+CardEngine.ExpansionSets.PokemonBase.EXPANSION_SET_ID = "pokemon_base_set"
+CardEngine.ExpansionSets.PokemonBase.LANGUAGE_PREFIX = "ce_expansion_pokemon_base_set_"
+
+--- The counter damage is kept under, in points (a damage counter is 10)
+CardEngine.ExpansionSets.PokemonBase.DAMAGE_COUNTER = "damage"
+
+CardEngine.ExpansionSets.PokemonBase.MAX_BENCH = 5
+CardEngine.ExpansionSets.PokemonBase.PRIZE_COUNT = 6
+CardEngine.ExpansionSets.PokemonBase.OPENING_HAND_SIZE = 7
+
+--- How much Weakness multiplies damage by, and how much Resistance takes off
+CardEngine.ExpansionSets.PokemonBase.WEAKNESS_MULTIPLIER = 2
+CardEngine.ExpansionSets.PokemonBase.RESISTANCE_REDUCTION = 30
+
+--- The Trainers that stay attached to a Pokémon and change the damage it does or takes
+CardEngine.ExpansionSets.PokemonBase.PLUSPOWER_ID = "pokemon_base_set_pluspower"
+CardEngine.ExpansionSets.PokemonBase.DEFENDER_ID = "pokemon_base_set_defender"
+CardEngine.ExpansionSets.PokemonBase.PLUSPOWER_BONUS = 10
+CardEngine.ExpansionSets.PokemonBase.DEFENDER_REDUCTION = 20
+
+--- Builds one of this set's language keys
+--- @param name string
+--- @return string
+function CardEngine.ExpansionSets.PokemonBase.Key(name)
+	return CardEngine.ExpansionSets.PokemonBase.LANGUAGE_PREFIX .. name
+end
+
 hook.Add(
 	"CardEngineInitializeExpansionSets",
 	"CardEngine.PokemonBaseSet.InitializeExpansionSet",
 	function()
-		local EXPANSION_SET_ID = "pokemon_base_set"
+		local PokemonBase = CardEngine.ExpansionSets.PokemonBase
+		local EXPANSION_SET_ID = PokemonBase.EXPANSION_SET_ID
 
 		-- Register the expansion set with its metadata and filterable attributes
 		CardEngine.ExpansionSet.Register({
@@ -12,16 +43,16 @@ hook.Add(
 
 			-- Define which attributes should appear as filters in the collection menu
 			FilterableAttributes = {
-				-- E.g: Trainer, Pokémon, Energy
-				Supertype = {
+				-- E.g: Pokemon, Trainer, Energy
+				Category = {
 					Name = "collection_filter_supertype",
-					AttributeName = "Supertype",
+					AttributeName = "Category",
 					IsArray = false,
 				},
-				-- E.g: Basic, Stage 1, Stage 2
-				Subtype = {
+				-- E.g: Basic, Stage1, Stage2
+				Stage = {
 					Name = "collection_filter_subtype",
-					AttributeName = "Subtype",
+					AttributeName = "Stage",
 					IsArray = false,
 				},
 				Types = {
@@ -33,6 +64,29 @@ hook.Add(
 					Name = "collection_filter_rarity",
 					AttributeName = "Rarity",
 					IsArray = false,
+				},
+			},
+
+			-- The 1999 deck rules: exactly 60 cards, at most 4 of any one except basic Energy, one Basic to start
+			DeckRules = {
+				MinCards = 60,
+				MaxCards = 60,
+				MaxCopies = 4,
+
+				CopyLimits = {
+					{
+						Name = "ce_expansion_pokemon_base_set_deck_rule_basic_energy_unlimited",
+						Attributes = { Category = "Energy", EnergyType = "Normal" },
+						MaxCopies = false,
+					},
+				},
+
+				Requirements = {
+					{
+						Name = "ce_expansion_pokemon_base_set_deck_rule_needs_basic_pokemon",
+						Attributes = { Category = "Pokemon", Stage = "Basic" },
+						MinCards = 1,
+					},
 				},
 			},
 		})
@@ -284,5 +338,20 @@ hook.Add(
 		)
 
 		CardEngine.Language.IncludeDirectory(CardEngine.PathCombine("ce_expansion_pokemon_base_set", "languages/"))
+
+		-- The rules of the game. Registration is deferred until every file has loaded, so folder order doesn't matter.
+		CardEngine.IncludeDirectory(CardEngine.PathCombine("ce_expansion_pokemon_base_set", "rules/"))
+		CardEngine.IncludeDirectory(CardEngine.PathCombine("ce_expansion_pokemon_base_set", "scripts/"))
+
+		PokemonBase.RegisterGameRules()
+
+		if (CLIENT) then
+			PokemonBase.RegisterPresentation()
+		end
+
+		-- The practice opponent reads the match itself rather than a filtered view
+		if (SERVER) then
+			PokemonBase.RegisterAI()
+		end
 	end
 )

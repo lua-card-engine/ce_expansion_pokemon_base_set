@@ -53,6 +53,7 @@ CARD.Attributes = {
 	},
 	Stage = "Basic",
 	EnergyType = "Normal",
+	Provides = { "Lightning" },
 	Legal = {
 		Standard = true,
 		Expanded = true

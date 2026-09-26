@@ -51,6 +51,7 @@ CARD.Attributes = {
 			Size = "standard"
 		}
 	},
+	TrainerText = "You and your opponent show each other your hands, then shuffle all the Trainer cards from your hands into your decks.",
 	Legal = {
 		Standard = false,
 		Expanded = false

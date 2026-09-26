@@ -51,6 +51,7 @@ CARD.Attributes = {
 			Size = "standard"
 		}
 	},
+	TrainerText = "Trade 1 of the other cards in your hand for up to 2 basic Energy cards from your discard pile.",
 	Legal = {
 		Standard = false,
 		Expanded = false

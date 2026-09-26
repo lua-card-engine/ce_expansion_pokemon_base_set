@@ -94,6 +94,8 @@ CARD.Attributes = {
 			Value = "-30"
 		}
 	},
+	RetreatCost = 0,
+	EvolvesFromCard = "pokemon_base_set_kakuna",
 	Legal = {
 		Standard = false,
 		Expanded = false

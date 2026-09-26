@@ -95,6 +95,8 @@ CARD.Attributes = {
 			Value = "-30"
 		}
 	},
+	RetreatCost = 2,
+	EvolvesFromCard = "pokemon_base_set_diglett",
 	Legal = {
 		Standard = false,
 		Expanded = false

@@ -90,6 +90,8 @@ CARD.Attributes = {
 			Value = "×2"
 		}
 	},
+	RetreatCost = 1,
+	EvolvesFromCard = "pokemon_base_set_magnemite",
 	Legal = {
 		Standard = false,
 		Expanded = false

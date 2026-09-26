@@ -84,6 +84,8 @@ CARD.Attributes = {
 			Value = "-30"
 		}
 	},
+	RetreatCost = 1,
+	EvolvesFromCard = "pokemon_base_set_gastly",
 	Legal = {
 		Standard = false,
 		Expanded = false

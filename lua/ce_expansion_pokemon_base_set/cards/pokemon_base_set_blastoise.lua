@@ -88,6 +88,8 @@ CARD.Attributes = {
 		}
 	},
 	Retreat = 3,
+	RetreatCost = 3,
+	EvolvesFromCard = "pokemon_base_set_wartortle",
 	Legal = {
 		Standard = false,
 		Expanded = false

@@ -6,16 +6,19 @@
     "type": "module",
     "scripts": {
         "download": "node download.js base1",
+        "enrich": "node enrich.js",
         "convert": "node convert.js",
         "process": "node process.js",
         "concat-cards": "node concat_cards.js ../lua/ce_expansion_pokemon_base_set/cards",
+        "sync-r2": "node sync_to_r2.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "luttje",
     "license": "MIT",
     "dependencies": {
+        "@aws-sdk/client-s3": "^3.1136.0",
         "@tcgdex/sdk": "^2.7.1",
-        "png-to-vtf": "^0.3.0",
-        "sharp": "^0.34.5"
+        "png-to-vtf": "^0.4.0",
+        "sharp": "^0.35.4"
     }
 }

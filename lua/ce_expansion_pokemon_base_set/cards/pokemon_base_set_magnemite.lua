@@ -85,6 +85,7 @@ CARD.Attributes = {
 			Value = "×2"
 		}
 	},
+	RetreatCost = 1,
 	Legal = {
 		Standard = false,
 		Expanded = false

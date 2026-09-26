@@ -53,6 +53,7 @@ CARD.Attributes = {
 	},
 	Stage = "Basic",
 	EnergyType = "Normal",
+	Provides = { "Fire" },
 	Legal = {
 		Standard = true,
 		Expanded = true

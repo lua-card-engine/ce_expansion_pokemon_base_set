@@ -51,6 +51,7 @@ CARD.Attributes = {
 			Size = "standard"
 		}
 	},
+	TrainerText = "Choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it.",
 	Legal = {
 		Standard = false,
 		Expanded = false

@@ -52,6 +52,7 @@ CARD.Attributes = {
 		}
 	},
 	EnergyType = "Special",
+	Provides = { "Colorless", "Colorless" },
 	Legal = {
 		Standard = false,
 		Expanded = false

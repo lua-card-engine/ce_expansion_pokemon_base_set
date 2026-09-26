@@ -51,6 +51,7 @@ CARD.Attributes = {
 			Size = "standard"
 		}
 	},
+	TrainerText = "Discard 1 Energy card attached to your own Pokémon in order to remove up to 4 damage counters from that Pokémon.",
 	Legal = {
 		Standard = false,
 		Expanded = false

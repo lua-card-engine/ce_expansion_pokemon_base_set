@@ -1,11 +1,11 @@
 {
-    "title": "CardEngine Expansion Set: Garry's Mod Base Set",
+    "title": "CardEngine Expansion Set: Pokémon Base Set",
     "type": "ServerContent",
     "tags": [
         "fun",
         "comic"
     ],
-    "description": "Content and code for the CardEngine Expansion Set: Garry's Mod Base Set.",
+    "description": "Content and code for the CardEngine Expansion Set: Pokémon Base Set.",
     "ignore": [
         ".git/*",
         ".github/*",

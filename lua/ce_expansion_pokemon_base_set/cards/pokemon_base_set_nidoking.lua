@@ -90,6 +90,8 @@ CARD.Attributes = {
 			Value = "×2"
 		}
 	},
+	RetreatCost = 3,
+	EvolvesFromCard = "pokemon_base_set_nidorino",
 	Legal = {
 		Standard = false,
 		Expanded = false

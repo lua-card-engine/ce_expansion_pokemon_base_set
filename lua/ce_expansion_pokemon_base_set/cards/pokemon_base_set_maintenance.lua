@@ -51,6 +51,7 @@ CARD.Attributes = {
 			Size = "standard"
 		}
 	},
+	TrainerText = "Shuffle 2 of the other cards from your hand into your deck in order to draw a card.",
 	Legal = {
 		Standard = false,
 		Expanded = false

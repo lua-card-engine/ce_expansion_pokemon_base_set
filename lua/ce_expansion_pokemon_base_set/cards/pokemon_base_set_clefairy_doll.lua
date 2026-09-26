@@ -52,6 +52,8 @@ CARD.Attributes = {
 		}
 	},
 	Hp = 10,
+	TrainerText = "Play Clefairy Doll as if it were a Basic Pokémon. While in play, Clefairy Doll counts a a Pokémon (instead of a Trainer card). Clefairy Doll has no attacks, can't retreat, and can't be Asleep, Confused, Paralyzed, or Poisoned. If Clefairy Doll is Knocked Out, it doesn't count as a Knocked Out Pokémon. At any time during your turn before your attack, you may discard Clefairy Doll.",
+	PlayableAsBasic = true,
 	Legal = {
 		Standard = false,
 		Expanded = false

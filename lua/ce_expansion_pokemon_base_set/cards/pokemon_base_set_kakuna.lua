@@ -86,6 +86,8 @@ CARD.Attributes = {
 			Value = "×2"
 		}
 	},
+	RetreatCost = 2,
+	EvolvesFromCard = "pokemon_base_set_weedle",
 	Legal = {
 		Standard = false,
 		Expanded = false

@@ -51,6 +51,7 @@ CARD.Attributes = {
 			Size = "standard"
 		}
 	},
+	TrainerText = "Choose 1 of your opponent's Benched Pokémon and switch it with his or her Active Pokémon.",
 	Legal = {
 		Standard = false,
 		Expanded = false

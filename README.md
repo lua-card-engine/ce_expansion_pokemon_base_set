@@ -8,13 +8,15 @@ This repository contains the Pokémon Base Expansion Set for the yet to be relea
 
 To use this expansion set in your Garry's Mod server, follow these steps:
 
-1. Ensure CardEngine is installed on your Garry's Mod server.
+1. Ensure CardEngine is already installed on your Garry's Mod server.
 
-2. Download or clone this repository to your local machine into a `ce_expansion_pokemon_base_set` folder.
+2. [Download](https://github.com/lua-card-engine/ce_expansion_pokemon_base_set/archive/refs/heads/main.zip) this repository to your local machine.
 
-3. Copy that entire `ce_expansion_pokemon_base_set` folder into the `addons/` directory of your Garry's Mod installation.
+3. Extract the downloaded zip file into a folder named `ce_expansion_pokemon_base_set` inside the `garrysmod/addons/` directory of your Garry's Mod installation.
 
-4. After the above steps, the folder structure should look like this:
+4. (Optional) After downloading from git the folder will be named `ce_expansion_pokemon_base_set-main`. Rename it to `ce_expansion_pokemon_base_set`, which is a cleaner name.
+
+5. After the above steps, the folder structure should look like this:
 
     ```plaintext
     garrysmod/
